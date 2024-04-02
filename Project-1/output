@@ -1,0 +1,540 @@
+I am thread with ID 2684 executing func1().
+stack_addr: 0x7ffff7400000
+stack_size: 8388608 bytes
+In thread 2684
+the value of global variable a is 123, the offset of the logical address of a is         0x406090, the physical address of global variable a is 0x8000000035294090
+the value of local variable b is 2694, the offset of the logical address of b is 0x7ffff7bfedfc, the physical address of local variable b is 0x8000000034de3dfc
+the offset of the logical address of thread local varialbe tx is 0x7ffff7bff618, the physical address of thread local variable tx is 0x80000000b5a60618
+the offset of the logical address of function hello is 0x4012c6, the physical address of function hello is 0xf3eb02c6
+the offset of the logical address of function func1 is 0x4017a2, the physical address of function func1 is 0xf3eb07a2
+the offset of the logical address of function func2 is 0x40184d, the physical address of function func2 is 0xf3eb084d
+the offset of the logical address of function main is 0x4018f8, the physical address of function main is 0xf3eb08f8
+the offset of the logical address of library function printf is 0x7ffff7c606f0, the physical address of library function printf is 0x1136b46f0
+the logical address of local heap address: 0x7ffff0001620, the physical address of local heap address: 0x80000000c9b7b620
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+global_variable_a
+pgd_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+pgd_index   = 0
+p4d_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+p4d_index   = 0
+pud_val     = 0x0000000001114067 (0xffffffffffffffff)
+pud_index   = 0
+pmd_val     = 0x00000000c8ad9067 (0xffffffffffffffff)
+pmd_index   = 2
+pte_val     = 0x8000000035294867 (0xffffffffffffffff)
+pte_index   = 6
+page_addr   = 0x8000000035294000 (0xffffffffffffffff)
+page_offset = 144
+vaddr       = 0x0000000000406090
+paddr       = 0x8000000035294090
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+local_variable_b
+pgd_val     = 0x8000000001110067 (0xffffffffffffffff)
+pgd_index   = 255
+p4d_val     = 0x8000000001110067 (0xffffffffffffffff)
+p4d_index   = 0
+pud_val     = 0x0000000001111067 (0xffffffffffffffff)
+pud_index   = 511
+pmd_val     = 0x0000000001193067 (0xffffffffffffffff)
+pmd_index   = 445
+pte_val     = 0x8000000034de3867 (0xffffffffffffffff)
+pte_index   = 510
+page_addr   = 0x8000000034de3000 (0xffffffffffffffff)
+page_offset = 3580
+vaddr       = 0x00007ffff7bfedfc
+paddr       = 0x8000000034de3dfc
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+thread_local_variable_tx
+pgd_val     = 0x8000000001110067 (0xffffffffffffffff)
+pgd_index   = 255
+p4d_val     = 0x8000000001110067 (0xffffffffffffffff)
+p4d_index   = 0
+pud_val     = 0x0000000001111067 (0xffffffffffffffff)
+pud_index   = 511
+pmd_val     = 0x0000000001193067 (0xffffffffffffffff)
+pmd_index   = 445
+pte_val     = 0x80000000b5a60867 (0xffffffffffffffff)
+pte_index   = 511
+page_addr   = 0x80000000b5a60000 (0xffffffffffffffff)
+page_offset = 1560
+vaddr       = 0x00007ffff7bff618
+paddr       = 0x80000000b5a60618
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+function_hello
+pgd_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+pgd_index   = 0
+p4d_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+p4d_index   = 0
+pud_val     = 0x0000000001114067 (0xffffffffffffffff)
+pud_index   = 0
+pmd_val     = 0x00000000c8ad9067 (0xffffffffffffffff)
+pmd_index   = 2
+pte_val     = 0x00000000f3eb0025 (0xffffffffffffffff)
+pte_index   = 1
+page_addr   = 0x00000000f3eb0000 (0xffffffffffffffff)
+page_offset = 710
+vaddr       = 0x00000000004012c6
+paddr       = 0x00000000f3eb02c6
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+function_func1
+pgd_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+pgd_index   = 0
+p4d_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+p4d_index   = 0
+pud_val     = 0x0000000001114067 (0xffffffffffffffff)
+pud_index   = 0
+pmd_val     = 0x00000000c8ad9067 (0xffffffffffffffff)
+pmd_index   = 2
+pte_val     = 0x00000000f3eb0025 (0xffffffffffffffff)
+pte_index   = 1
+page_addr   = 0x00000000f3eb0000 (0xffffffffffffffff)
+page_offset = 1954
+vaddr       = 0x00000000004017a2
+paddr       = 0x00000000f3eb07a2
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+function_func2
+pgd_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+pgd_index   = 0
+p4d_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+p4d_index   = 0
+pud_val     = 0x0000000001114067 (0xffffffffffffffff)
+pud_index   = 0
+pmd_val     = 0x00000000c8ad9067 (0xffffffffffffffff)
+pmd_index   = 2
+pte_val     = 0x00000000f3eb0025 (0xffffffffffffffff)
+pte_index   = 1
+page_addr   = 0x00000000f3eb0000 (0xffffffffffffffff)
+page_offset = 2125
+vaddr       = 0x000000000040184d
+paddr       = 0x00000000f3eb084d
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+function_main
+pgd_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+pgd_index   = 0
+p4d_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+p4d_index   = 0
+pud_val     = 0x0000000001114067 (0xffffffffffffffff)
+pud_index   = 0
+pmd_val     = 0x00000000c8ad9067 (0xffffffffffffffff)
+pmd_index   = 2
+pte_val     = 0x00000000f3eb0025 (0xffffffffffffffff)
+pte_index   = 1
+page_addr   = 0x00000000f3eb0000 (0xffffffffffffffff)
+page_offset = 2296
+vaddr       = 0x00000000004018f8
+paddr       = 0x00000000f3eb08f8
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+library_function_printf
+pgd_val     = 0x8000000001110067 (0xffffffffffffffff)
+pgd_index   = 255
+p4d_val     = 0x8000000001110067 (0xffffffffffffffff)
+p4d_index   = 0
+pud_val     = 0x0000000001111067 (0xffffffffffffffff)
+pud_index   = 511
+pmd_val     = 0x0000000001194067 (0xffffffffffffffff)
+pmd_index   = 446
+pte_val     = 0x00000001136b4025 (0xffffffffffffffff)
+pte_index   = 96
+page_addr   = 0x00000001136b4000 (0xffffffffffffffff)
+page_offset = 1776
+vaddr       = 0x00007ffff7c606f0
+paddr       = 0x00000001136b46f0
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+local_heap
+pgd_val     = 0x8000000001110067 (0xffffffffffffffff)
+pgd_index   = 255
+p4d_val     = 0x8000000001110067 (0xffffffffffffffff)
+p4d_index   = 0
+pud_val     = 0x0000000001111067 (0xffffffffffffffff)
+pud_index   = 511
+pmd_val     = 0x00000000c8ad0067 (0xffffffffffffffff)
+pmd_index   = 384
+pte_val     = 0x80000000c9b7b867 (0xffffffffffffffff)
+pte_index   = 1
+page_addr   = 0x80000000c9b7b000 (0xffffffffffffffff)
+page_offset = 1568
+vaddr       = 0x00007ffff0001620
+paddr       = 0x80000000c9b7b620
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+text  : start = 0x0000000000400000 (0x80000000c99cb000), end = 0x0000000000406000 (0x8000000035294000)
+data  : start = 0x0000000000405000 (0x8000000034de9000), end = 0x0000000000407000 (0x8000000034de6000)
+bss   : start = 0x0000000000406000 (0x8000000035294000), end = 0x0000000000407000 (0x8000000034de6000)
+heap  : start = 0x0000000000407000 (0x8000000034de6000), end = 0x0000000000428000 (0xffffffffffffffff)
+mm    : start = 0x00007ffff0000000 (0x80000000b4f64000), end = 0x00007ffff7fff000 (0xffffffffffffffff)
+stack : start = 0x00007ffff7400000 (0xffffffffffffffff), end = 0x00007ffff7c00000 (0x80000001134fe000)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+current->mm->start_brk      = 0x0000000000407000 (0x8000000034de6000)
+current->mm->brk            = 0x0000000000428000 (0xffffffffffffffff)
+current->mm->start_stack    = 0x00007fffffffe510 (0x80000000f3e59510)
+current->mm->mmap_base      = 0x00007ffff7fff000 (0xffffffffffffffff)
+current->mm->task_size      = 140737488351232 bytes
+current->mm->start_code     = 0x0000000000401000 (0x00000000f3eb0000)
+current->mm->end_code       = 0x0000000000402495 (0x00000000c9f1f495)
+current->mm->start_data     = 0x0000000000405e08 (0x8000000034de9e08)
+current->mm->end_data       = 0x0000000000406094 (0x8000000035294094)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+current->stack              = 0xffffab1881a9c000 (0x80000000c8ac8000)
+current->stack_canary       = 0xe4614d6cafcb2d00
+current->mm                 = 0xffff8fa0c082fb40 (0xffff8fa0c1023b40)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+I am main thread with ID 2683.
+In thread 2683
+the value of global variable a is 123, the offset of the logical address of a is         0x406090, the physical address of global variable a is 0x8000000035294090
+the value of local variable b is 2693, the offset of the logical address of b is 0x7fffffffe38c, the physical address of local variable b is 0x80000000f3e5938c
+the offset of the logical address of thread local varialbe tx is 0x7ffff7fb1718, the physical address of thread local variable tx is 0x8000000034dea718
+the offset of the logical address of function hello is 0x4012c6, the physical address of function hello is 0xf3eb02c6
+the offset of the logical address of function func1 is 0x4017a2, the physical address of function func1 is 0xf3eb07a2
+the offset of the logical address of function func2 is 0x40184d, the physical address of function func2 is 0xf3eb084d
+the offset of the logical address of function main is 0x4018f8, the physical address of function main is 0xf3eb08f8
+the offset of the logical address of library function printf is 0x7ffff7c606f0, the physical address of library function printf is 0x1136b46f0
+the logical address of local heap address: 0x407aa0, the physical address of local heap address: 0x8000000034de6aa0
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+global_variable_a
+pgd_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+pgd_index   = 0
+p4d_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+p4d_index   = 0
+pud_val     = 0x0000000001114067 (0xffffffffffffffff)
+pud_index   = 0
+pmd_val     = 0x00000000c8ad9067 (0xffffffffffffffff)
+pmd_index   = 2
+pte_val     = 0x8000000035294867 (0xffffffffffffffff)
+pte_index   = 6
+page_addr   = 0x8000000035294000 (0xffffffffffffffff)
+page_offset = 144
+vaddr       = 0x0000000000406090
+paddr       = 0x8000000035294090
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+local_variable_b
+pgd_val     = 0x8000000001110067 (0xffffffffffffffff)
+pgd_index   = 255
+p4d_val     = 0x8000000001110067 (0xffffffffffffffff)
+p4d_index   = 0
+pud_val     = 0x0000000001111067 (0xffffffffffffffff)
+pud_index   = 511
+pmd_val     = 0x0000000001188067 (0xffffffffffffffff)
+pmd_index   = 511
+pte_val     = 0x80000000f3e59867 (0xffffffffffffffff)
+pte_index   = 510
+page_addr   = 0x80000000f3e59000 (0xffffffffffffffff)
+page_offset = 908
+vaddr       = 0x00007fffffffe38c
+paddr       = 0x80000000f3e5938c
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+thread_local_variable_tx
+pgd_val     = 0x8000000001110067 (0xffffffffffffffff)
+pgd_index   = 255
+p4d_val     = 0x8000000001110067 (0xffffffffffffffff)
+p4d_index   = 0
+pud_val     = 0x0000000001111067 (0xffffffffffffffff)
+pud_index   = 511
+pmd_val     = 0x000000000110b067 (0xffffffffffffffff)
+pmd_index   = 447
+pte_val     = 0x8000000034dea867 (0xffffffffffffffff)
+pte_index   = 433
+page_addr   = 0x8000000034dea000 (0xffffffffffffffff)
+page_offset = 1816
+vaddr       = 0x00007ffff7fb1718
+paddr       = 0x8000000034dea718
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+function_hello
+pgd_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+pgd_index   = 0
+p4d_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+p4d_index   = 0
+pud_val     = 0x0000000001114067 (0xffffffffffffffff)
+pud_index   = 0
+pmd_val     = 0x00000000c8ad9067 (0xffffffffffffffff)
+pmd_index   = 2
+pte_val     = 0x00000000f3eb0025 (0xffffffffffffffff)
+pte_index   = 1
+page_addr   = 0x00000000f3eb0000 (0xffffffffffffffff)
+page_offset = 710
+vaddr       = 0x00000000004012c6
+paddr       = 0x00000000f3eb02c6
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+function_func1
+pgd_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+pgd_index   = 0
+p4d_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+p4d_index   = 0
+pud_val     = 0x0000000001114067 (0xffffffffffffffff)
+pud_index   = 0
+pmd_val     = 0x00000000c8ad9067 (0xffffffffffffffff)
+pmd_index   = 2
+pte_val     = 0x00000000f3eb0025 (0xffffffffffffffff)
+pte_index   = 1
+page_addr   = 0x00000000f3eb0000 (0xffffffffffffffff)
+page_offset = 1954
+vaddr       = 0x00000000004017a2
+paddr       = 0x00000000f3eb07a2
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+function_func2
+pgd_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+pgd_index   = 0
+p4d_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+p4d_index   = 0
+pud_val     = 0x0000000001114067 (0xffffffffffffffff)
+pud_index   = 0
+pmd_val     = 0x00000000c8ad9067 (0xffffffffffffffff)
+pmd_index   = 2
+pte_val     = 0x00000000f3eb0025 (0xffffffffffffffff)
+pte_index   = 1
+page_addr   = 0x00000000f3eb0000 (0xffffffffffffffff)
+page_offset = 2125
+vaddr       = 0x000000000040184d
+paddr       = 0x00000000f3eb084d
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+function_main
+pgd_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+pgd_index   = 0
+p4d_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+p4d_index   = 0
+pud_val     = 0x0000000001114067 (0xffffffffffffffff)
+pud_index   = 0
+pmd_val     = 0x00000000c8ad9067 (0xffffffffffffffff)
+pmd_index   = 2
+pte_val     = 0x00000000f3eb0025 (0xffffffffffffffff)
+pte_index   = 1
+page_addr   = 0x00000000f3eb0000 (0xffffffffffffffff)
+page_offset = 2296
+vaddr       = 0x00000000004018f8
+paddr       = 0x00000000f3eb08f8
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+library_function_printf
+pgd_val     = 0x8000000001110067 (0xffffffffffffffff)
+pgd_index   = 255
+p4d_val     = 0x8000000001110067 (0xffffffffffffffff)
+p4d_index   = 0
+pud_val     = 0x0000000001111067 (0xffffffffffffffff)
+pud_index   = 511
+pmd_val     = 0x0000000001194067 (0xffffffffffffffff)
+pmd_index   = 446
+pte_val     = 0x00000001136b4025 (0xffffffffffffffff)
+pte_index   = 96
+page_addr   = 0x00000001136b4000 (0xffffffffffffffff)
+page_offset = 1776
+vaddr       = 0x00007ffff7c606f0
+paddr       = 0x00000001136b46f0
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+local_heap
+pgd_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+pgd_index   = 0
+p4d_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+p4d_index   = 0
+pud_val     = 0x0000000001114067 (0xffffffffffffffff)
+pud_index   = 0
+pmd_val     = 0x00000000c8ad9067 (0xffffffffffffffff)
+pmd_index   = 2
+pte_val     = 0x8000000034de6867 (0xffffffffffffffff)
+pte_index   = 7
+page_addr   = 0x8000000034de6000 (0xffffffffffffffff)
+page_offset = 2720
+vaddr       = 0x0000000000407aa0
+paddr       = 0x8000000034de6aa0
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+text  : start = 0x0000000000400000 (0x80000000c99cb000), end = 0x0000000000406000 (0x8000000035294000)
+data  : start = 0x0000000000405000 (0x8000000034de9000), end = 0x0000000000407000 (0x8000000034de6000)
+bss   : start = 0x0000000000406000 (0x8000000035294000), end = 0x0000000000407000 (0x8000000034de6000)
+heap  : start = 0x0000000000407000 (0x8000000034de6000), end = 0x0000000000428000 (0xffffffffffffffff)
+mm    : start = 0x00007ffff0000000 (0x80000000b4f64000), end = 0x00007ffff7fff000 (0xffffffffffffffff)
+stack : start = 0x00007ffffffde000 (0xffffffffffffffff), end = 0x00007ffffffff000 (0xffffffffffffffff)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+current->mm->start_brk      = 0x0000000000407000 (0x8000000034de6000)
+current->mm->brk            = 0x0000000000428000 (0xffffffffffffffff)
+current->mm->start_stack    = 0x00007fffffffe510 (0x80000000f3e59510)
+current->mm->mmap_base      = 0x00007ffff7fff000 (0xffffffffffffffff)
+current->mm->task_size      = 140737488351232 bytes
+current->mm->start_code     = 0x0000000000401000 (0x00000000f3eb0000)
+current->mm->end_code       = 0x0000000000402495 (0x00000000c9f1f495)
+current->mm->start_data     = 0x0000000000405e08 (0x8000000034de9e08)
+current->mm->end_data       = 0x0000000000406094 (0x8000000035294094)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+current->stack              = 0xffffab1881a7c000 (0x80000000c8a12000)
+current->stack_canary       = 0xe34c03e7b2f87d00
+current->mm                 = 0xffff8fa0c082fb40 (0xffff8fa0c1023b40)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+I am thread with ID 2685 executing func2().
+stack_addr: 0x7ffff6bff000
+stack_size: 8388608 bytes
+In thread 2685
+the value of global variable a is 123, the offset of the logical address of a is         0x406090, the physical address of global variable a is 0x8000000035294090
+the value of local variable b is 2695, the offset of the logical address of b is 0x7ffff73fddfc, the physical address of local variable b is 0x80000000b5e74dfc
+the offset of the logical address of thread local varialbe tx is 0x7ffff73fe618, the physical address of thread local variable tx is 0x8000000035254618
+the offset of the logical address of function hello is 0x4012c6, the physical address of function hello is 0xf3eb02c6
+the offset of the logical address of function func1 is 0x4017a2, the physical address of function func1 is 0xf3eb07a2
+the offset of the logical address of function func2 is 0x40184d, the physical address of function func2 is 0xf3eb084d
+the offset of the logical address of function main is 0x4018f8, the physical address of function main is 0xf3eb08f8
+the offset of the logical address of library function printf is 0x7ffff7c606f0, the physical address of library function printf is 0x1136b46f0
+the logical address of local heap address: 0x7fffe8001210, the physical address of local heap address: 0x80000000c941b210
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+global_variable_a
+pgd_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+pgd_index   = 0
+p4d_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+p4d_index   = 0
+pud_val     = 0x0000000001114067 (0xffffffffffffffff)
+pud_index   = 0
+pmd_val     = 0x00000000c8ad9067 (0xffffffffffffffff)
+pmd_index   = 2
+pte_val     = 0x8000000035294867 (0xffffffffffffffff)
+pte_index   = 6
+page_addr   = 0x8000000035294000 (0xffffffffffffffff)
+page_offset = 144
+vaddr       = 0x0000000000406090
+paddr       = 0x8000000035294090
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+local_variable_b
+pgd_val     = 0x8000000001110067 (0xffffffffffffffff)
+pgd_index   = 255
+p4d_val     = 0x8000000001110067 (0xffffffffffffffff)
+p4d_index   = 0
+pud_val     = 0x0000000001111067 (0xffffffffffffffff)
+pud_index   = 511
+pmd_val     = 0x0000000001196067 (0xffffffffffffffff)
+pmd_index   = 441
+pte_val     = 0x80000000b5e74867 (0xffffffffffffffff)
+pte_index   = 509
+page_addr   = 0x80000000b5e74000 (0xffffffffffffffff)
+page_offset = 3580
+vaddr       = 0x00007ffff73fddfc
+paddr       = 0x80000000b5e74dfc
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+thread_local_variable_tx
+pgd_val     = 0x8000000001110067 (0xffffffffffffffff)
+pgd_index   = 255
+p4d_val     = 0x8000000001110067 (0xffffffffffffffff)
+p4d_index   = 0
+pud_val     = 0x0000000001111067 (0xffffffffffffffff)
+pud_index   = 511
+pmd_val     = 0x0000000001196067 (0xffffffffffffffff)
+pmd_index   = 441
+pte_val     = 0x8000000035254867 (0xffffffffffffffff)
+pte_index   = 510
+page_addr   = 0x8000000035254000 (0xffffffffffffffff)
+page_offset = 1560
+vaddr       = 0x00007ffff73fe618
+paddr       = 0x8000000035254618
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+function_hello
+pgd_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+pgd_index   = 0
+p4d_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+p4d_index   = 0
+pud_val     = 0x0000000001114067 (0xffffffffffffffff)
+pud_index   = 0
+pmd_val     = 0x00000000c8ad9067 (0xffffffffffffffff)
+pmd_index   = 2
+pte_val     = 0x00000000f3eb0025 (0xffffffffffffffff)
+pte_index   = 1
+page_addr   = 0x00000000f3eb0000 (0xffffffffffffffff)
+page_offset = 710
+vaddr       = 0x00000000004012c6
+paddr       = 0x00000000f3eb02c6
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+function_func1
+pgd_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+pgd_index   = 0
+p4d_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+p4d_index   = 0
+pud_val     = 0x0000000001114067 (0xffffffffffffffff)
+pud_index   = 0
+pmd_val     = 0x00000000c8ad9067 (0xffffffffffffffff)
+pmd_index   = 2
+pte_val     = 0x00000000f3eb0025 (0xffffffffffffffff)
+pte_index   = 1
+page_addr   = 0x00000000f3eb0000 (0xffffffffffffffff)
+page_offset = 1954
+vaddr       = 0x00000000004017a2
+paddr       = 0x00000000f3eb07a2
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+function_func2
+pgd_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+pgd_index   = 0
+p4d_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+p4d_index   = 0
+pud_val     = 0x0000000001114067 (0xffffffffffffffff)
+pud_index   = 0
+pmd_val     = 0x00000000c8ad9067 (0xffffffffffffffff)
+pmd_index   = 2
+pte_val     = 0x00000000f3eb0025 (0xffffffffffffffff)
+pte_index   = 1
+page_addr   = 0x00000000f3eb0000 (0xffffffffffffffff)
+page_offset = 2125
+vaddr       = 0x000000000040184d
+paddr       = 0x00000000f3eb084d
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+function_main
+pgd_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+pgd_index   = 0
+p4d_val     = 0x80000000c8b4f067 (0xffffffffffffffff)
+p4d_index   = 0
+pud_val     = 0x0000000001114067 (0xffffffffffffffff)
+pud_index   = 0
+pmd_val     = 0x00000000c8ad9067 (0xffffffffffffffff)
+pmd_index   = 2
+pte_val     = 0x00000000f3eb0025 (0xffffffffffffffff)
+pte_index   = 1
+page_addr   = 0x00000000f3eb0000 (0xffffffffffffffff)
+page_offset = 2296
+vaddr       = 0x00000000004018f8
+paddr       = 0x00000000f3eb08f8
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+library_function_printf
+pgd_val     = 0x8000000001110067 (0xffffffffffffffff)
+pgd_index   = 255
+p4d_val     = 0x8000000001110067 (0xffffffffffffffff)
+p4d_index   = 0
+pud_val     = 0x0000000001111067 (0xffffffffffffffff)
+pud_index   = 511
+pmd_val     = 0x0000000001194067 (0xffffffffffffffff)
+pmd_index   = 446
+pte_val     = 0x00000001136b4025 (0xffffffffffffffff)
+pte_index   = 96
+page_addr   = 0x00000001136b4000 (0xffffffffffffffff)
+page_offset = 1776
+vaddr       = 0x00007ffff7c606f0
+paddr       = 0x00000001136b46f0
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+local_heap
+pgd_val     = 0x8000000001110067 (0xffffffffffffffff)
+pgd_index   = 255
+p4d_val     = 0x8000000001110067 (0xffffffffffffffff)
+p4d_index   = 0
+pud_val     = 0x0000000001111067 (0xffffffffffffffff)
+pud_index   = 511
+pmd_val     = 0x00000000c90f8067 (0xffffffffffffffff)
+pmd_index   = 320
+pte_val     = 0x80000000c941b867 (0xffffffffffffffff)
+pte_index   = 1
+page_addr   = 0x80000000c941b000 (0xffffffffffffffff)
+page_offset = 528
+vaddr       = 0x00007fffe8001210
+paddr       = 0x80000000c941b210
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+text  : start = 0x0000000000400000 (0x80000000c99cb000), end = 0x0000000000406000 (0x8000000035294000)
+data  : start = 0x0000000000405000 (0x8000000034de9000), end = 0x0000000000407000 (0x8000000034de6000)
+bss   : start = 0x0000000000406000 (0x8000000035294000), end = 0x0000000000407000 (0x8000000034de6000)
+heap  : start = 0x0000000000407000 (0x8000000034de6000), end = 0x0000000000428000 (0xffffffffffffffff)
+mm    : start = 0x00007fffe8000000 (0x8000000034df8000), end = 0x00007ffff7fff000 (0xffffffffffffffff)
+stack : start = 0x00007ffff6bff000 (0xffffffffffffffff), end = 0x00007ffff73ff000 (0xffffffffffffffff)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+current->mm->start_brk      = 0x0000000000407000 (0x8000000034de6000)
+current->mm->brk            = 0x0000000000428000 (0xffffffffffffffff)
+current->mm->start_stack    = 0x00007fffffffe510 (0x80000000f3e59510)
+current->mm->mmap_base      = 0x00007ffff7fff000 (0xffffffffffffffff)
+current->mm->task_size      = 140737488351232 bytes
+current->mm->start_code     = 0x0000000000401000 (0x00000000f3eb0000)
+current->mm->end_code       = 0x0000000000402495 (0x00000000c9f1f495)
+current->mm->start_data     = 0x0000000000405e08 (0x8000000034de9e08)
+current->mm->end_data       = 0x0000000000406094 (0x8000000035294094)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+current->stack              = 0xffffab1881ac4000 (0x8000000001197000)
+current->stack_canary       = 0x9ed365cadef14d00
+current->mm                 = 0xffff8fa0c082fb40 (0xffff8fa0c1023b40)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
